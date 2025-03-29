@@ -21,20 +21,20 @@ python main.py --mode='test'
 ## 2. X-ray and MRI denoising
 ### 2.1 Training 
 ```
-DPNtrainJSRT.py # training for X-ray
+python DPNtrainJSRT.py # training for X-ray
 ```
 
 ```
-DPNtrainMRI15.py # training for MRI, noise level = 15
-DPNtrainMRI50.py # training for MRI, noise level = 50
+python DPNtrainMRI15.py # training for MRI, noise level = 15
+python DPNtrainMRI50.py # training for MRI, noise level = 50
 ```
 ### 2.2 Testing 
 ```
-DPNpredictJSRT.py # testing for X-ray
+python DPNpredictJSRT.py # testing for X-ray
 ```
 ```
-DPNpredictMRI15GP.py # testing for MRI, noise level = 15
-DPNpredictMRI50GP.py # testing for MRI, noise level = 50
+python DPNpredictMRI15GP.py # testing for MRI, noise level = 15
+python DPNpredictMRI50GP.py # testing for MRI, noise level = 50
 ```
 
 
